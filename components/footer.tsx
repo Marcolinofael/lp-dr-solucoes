@@ -1,5 +1,5 @@
 import { Logo } from '@/components/logo'
-import { COMPANY_NAME, COMPANY_SLOGAN, COMPANY_TAGLINE, MENU_ITEMS, PHONE_DISPLAY, whatsappUrl } from '@/lib/site'
+import { COMPANY_NAME, COMPANY_SLOGAN, COMPANY_TAGLINE, MENU_ITEMS, PHONE_DISPLAY, SERVICE_AREA, whatsappUrl } from '@/lib/site'
 
 export const Footer = () => {
     return (
@@ -11,7 +11,7 @@ export const Footer = () => {
                             <Logo className="size-14" />
                             <span className="text-lg font-semibold text-white">{COMPANY_NAME}</span>
                         </div>
-                        <p className="max-w-xs text-sm">{COMPANY_TAGLINE}.</p>
+                        <p className="max-w-xs text-sm">{COMPANY_TAGLINE} em {SERVICE_AREA}.</p>
                     </div>
 
                     <div>

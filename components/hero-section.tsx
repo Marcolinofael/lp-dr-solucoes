@@ -7,7 +7,7 @@ import { ArrowRight, Cctv, MessageCircle, MonitorSmartphone } from 'lucide-react
 import { TextEffect } from '@/components/ui/text-effect'
 import { Button } from '@/components/ui/button'
 import { HeroHeader } from './header'
-import { COMPANY_NAME, COMPANY_TAGLINE, whatsappUrl } from '@/lib/site'
+import { COMPANY_NAME, COMPANY_TAGLINE, SERVICE_AREA, whatsappUrl } from '@/lib/site'
 
 const fadeInBlur = {
   hidden: { opacity: 0, y: 20, filter: 'blur(12px)' },
@@ -81,7 +81,7 @@ export default function HeroSection() {
                                 delay={1.1}
                                 as="p"
                                 className="mx-auto mt-6 max-w-2xl text-balance text-lg font-medium text-white/75 md:text-xl lg:mx-0">
-                                Instalação de câmeras CFTV e monitoramento 24 horas para você acompanhar tudo de onde estiver, pelo celular, tablet ou PC.
+                                {`Instalação de câmeras CFTV e monitoramento 24 horas em ${SERVICE_AREA}, para você acompanhar tudo de onde estiver, pelo celular, tablet ou PC.`}
                             </TextEffect>
                             <motion.div
                                 initial="hidden"
